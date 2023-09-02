@@ -1,0 +1,10 @@
+th{
+    background-color: black;
+    color: white;
+}
+td{
+    border: 0.1rem solid black;
+}
+table{
+    border: 0.1rem solid black;
+}
