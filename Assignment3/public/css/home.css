@@ -1,0 +1,22 @@
+#banner{
+    background-color: blue;
+    color: white;
+    padding: 4rem;
+}
+div.content{
+    flex: 8;
+    background-color: orange;
+}
+.yourinfo{
+    flex: 2;
+}
+
+img.avatar{
+    max-width: 4rem;
+}
+
+div.avatars{
+    padding: 0;
+}
+    
+
