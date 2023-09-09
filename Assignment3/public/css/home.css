@@ -3,6 +3,12 @@
     color: white;
     padding: 4rem;
 }
+#footer{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+}
+
 div.content{
     flex: 8;
     background-color: orange;
