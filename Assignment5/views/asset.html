@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script src="/public/js/qrcodejs-master/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container p-5">
+        <div class="row">
+            <div class="container ">
+                <button type="button" class=" btn btn-danger float-end mb-2">Sign out</button>
+            </div>
+            <div class="container">
+                <button type="button" class=" btn btn-primary float-end" id="qrcode_button" >QR code</button>
+            </div>
+        </div>
+        <h1>Asset List</h1>
+        <div class="table-responsive">
+            <table class="table table-light">
+                <thead>
+                    <tr>
+                        <th scope="col">Chosse</th>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody id="assetlist">
+                    <!-- <tr class="">
+                        <td scope="row">R1C1</td>
+                        <td>R1C2</td>
+                        <td>R1C3</td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Item</td>
+                        <td>Item</td>
+                        <td>Item</td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+        <h1>QR code</h1>
+        <div class="qrcode_wrapper">
+            <div id="qrcode">
+            </div>
+            <label id="qrcodeid"></label>
+        </div>
+    </div>
+    <script src="/public/js/asset.js"></script>
+</body>
+</html>
